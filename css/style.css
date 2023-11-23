@@ -1,0 +1,64 @@
+body{
+    background-color: #303033;
+}
+
+.a{
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    -webkit-animation-name: a; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-direction: alternate; 
+    animation-name: a;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;    
+}
+
+
+@-webkit-keyframes a{
+    0%   { left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+     100% { left:0px; top:0px;}
+}
+ 
+
+
+
+
+
+.b{
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    -webkit-animation-name: b; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-direction: alternate; 
+    animation-name: b;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+@-webkit-keyframes b{
+    0%   { right:0px; top:0px;}
+    50%  {right:200px; top:0px;}
+     100% { right:0px; top:0px;}
+ 
+}
+
+.flex{
+    display: flex;
+    margin: 330px;
+    
+}
+
+
+
+
+
+
